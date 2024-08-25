@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hide{
+    display: none;
+}
+
+.main-container{
+    height: 100vh;
+    background-color: rgb(99, 1, 1);
+    color: bisque;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.choice-display{
+    height: 40vh;
+    display: flex;
+    gap: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice{
+    height: 25vh;
+    width: 25vh;
+    background-color: beige;
+    border-radius: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice img{
+    height: 15vh;
+    border-radius: 30%;
+}
+.comp-choice img{
+    transform: scaleX(-1); 
+}
+.players{
+    color: rgba(99, 1, 1, 0.3);
+}
+
+.score-board{
+    display: flex;
+    text-align: center;
+    gap: 40vh;
+    justify-content: center;
+}
+.score{
+    width: 18vh;
+    height: 15vh;
+    background-color: black;
+    border-radius: 3vh;
+}
+
+.game-result{
+    text-align: center;
+}
+.game-result{
+    width: 60%;
+    padding: 1vh;
+    margin: 30px auto 30px auto;
+    background-color: beige;
+    color: rgb(99, 1, 1);
+    font-size: 1.3rem;
+    border-radius: 1vh;
+
+}
+
+.options{
+    height: 20vh;
+    display: flex;
+    gap: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.options img{
+    height: 16vh;
+    /* width: 20vh; */
+    background-color: beige;
+    color: rgb(122, 40, 40);
+    border-radius: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option:hover{
+    cursor: pointer;
+    background-color: rgba(255, 228, 196, 0.7);
+    border: 2px solid black;
+}
